@@ -1,0 +1,23 @@
+asset_class,base_product,sub_product,transaction_type,isda_taxonomy,dsb_product_name,upi
+Interest Rate,IR Swap,Fixed Float,,IR:Swap:FixedFloat,Rates.Swap.Fixed_Float,QZ2093849381
+Interest Rate,IR Swap,Fixed Fixed,,IR:Swap:FixedFixed,Rates.Swap.Fixed_Fixed,QZJF573R2H63
+Interest Rate,IR Swap,Basis,,IR:Swap:Basis,Rates.Swap.Basis,QZ6X4MR1Q3X7
+Interest Rate,FRA,,,IR:FRA,Rates.Forward.FRA_Other,QZNZVNMQT7G9
+Interest Rate,CapFloor,,,IR:CapFloor,Rates.Option.CapFloor,QZD1V8PXF2RG
+Interest Rate,Cross Currency,Basis,,IR:CrossCurrency:Basis,Rates.Swap.Cross_Currency_Basis,QZJNB6MZ3LQ8
+Interest Rate,Cross Currency,Fixed Float,,IR:CrossCurrency:FixedFloat,Rates.Swap.Cross_Currency_Fixed_Float,QZ7M47SKZL15
+Interest Rate,Cross Currency,Fixed Fixed,,IR:CrossCurrency:FixedFixed,Rates.Swap.Cross_Currency_Fixed_Fixed,QZHM0RRRNRK6
+Interest Rate,Option,Debt Option,,IR:Option:DebtOption,Rates.Option.Debt_Option,QZ5M5NQDHVC3
+Interest Rate,Option,Swaption,,IR:Option:Swaption,Rates.Option.Swaption,QZ2093849381
+Interest Rate,Forward,Debt,,IR:Forward:Debt,Rates.Forward.Debt,QZ92PHD32T52
+Interest Rate,IR Swap,Fixed Float,Zero Coupon,IR:Swap:FixedFloat:ZeroCoupon,Rates.Swap.Fixed_Float_Zero_Coupon,QZBFM496WKR1
+Interest Rate,IR Swap,Fixed Float,Plain Vanilla,IR:Swap:FixedFloat:PlainVanilla,Rates.Swap.Non_Standard,QZGL629H2T52
+Interest Rate,IR Swap,Fixed Float,OIS,IR:Swap:FixedFloat:OIS,Rates.Swap.Fixed_Float_OIS,QZWT24156782
+Interest Rate,IR Swap,Basis,OIS,IR:Swap:Basis:OIS,Rates.Swap.Basis_OIS,QZH08G0FPMR4
+Interest Rate,Inflation,,,IR:Inflation,Rates.Swap.Inflation_Swap,QZ4Q8ZXMT8Q7
+Interest Rate,Inflation Swap,Fixed Float,Year On Year,IR:InflationSwap:FixedFloat:YearOnYear,Rates.Swap.Inflation_Fixed_Float_YoY,QZGF63K72828
+Interest Rate,Inflation Swap,Fixed Float,Zero Coupon,IR:InflationSwap:FixedFloat:ZeroCoupon,Rates.Swap.Inflation_Fixed_Float_Zero_Coupon,QZ24044T9VM2
+Interest Rate,Inflation Swap,Basis,Year On Year,IR:InflationSwap:Basis:YearOnYear,Rates.Swap.Inflation_Basis_YoY,QZGL6GW92T52
+Interest Rate,Inflation Swap,Basis,Zero Coupon,IR:InflationSwap:Basis:ZeroCoupon,Rates.Swap.Inflation_Basis_Zero_Coupon,QZGL6TJK2T52
+Interest Rate,Inflation CapFloor,,,IR:InflationCapFloor,Rates.Option.Inflation_CapFloor,QZGL4LJPH522
+Interest Rate,Exotic,,,IR:Exotic,Rates.Swap.Non_Standard,QZGL629H2T52

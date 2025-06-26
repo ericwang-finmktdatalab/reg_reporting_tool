@@ -1,0 +1,162 @@
+<trades>
+	<trade>
+		<trade_id>T001</trade_id>
+		<trade_date>2025-06-01</trade_date>
+		<counterparty>Bank A</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>IR Swap</base_product>
+		<sub_product>Fixed Float</sub_product>
+		<transaction_type>OIS</transaction_type>
+		<notional_amount>1000000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2027-06-01</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:Swap:FixedFloat:OIS</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Fixed_Float_OIS</dsb_product_name>
+		<upi>QZWT24156782</upi>
+	</trade>
+	<trade>
+		<trade_id>T002</trade_id>
+		<trade_date>2025-06-02</trade_date>
+		<counterparty>Bank B</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>IR Swap</base_product>
+		<sub_product>Fixed Float</sub_product>
+		<transaction_type>Plain Vanilla</transaction_type>
+		<notional_amount>2000000</notional_amount>
+		<notional_currency>EUR</notional_currency>
+		<maturity_date>2028-06-02</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:Swap:FixedFloat:PlainVanilla</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Non_Standard</dsb_product_name>
+		<upi>QZGL629H2T52</upi>
+	</trade>
+	<trade>
+		<trade_id>T003</trade_id>
+		<trade_date>2025-06-03</trade_date>
+		<counterparty>Bank C</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>IR Swap</base_product>
+		<sub_product>Basis</sub_product>
+		<transaction_type/>
+		<notional_amount>1500000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2026-06-03</maturity_date>
+		<action_type>Modify</action_type>
+		<isda_taxonomy>IR:Swap:Basis</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Basis</dsb_product_name>
+		<upi>QZ6X4MR1Q3X7</upi>
+	</trade>
+	<trade>
+		<trade_id>T004</trade_id>
+		<trade_date>2025-06-04</trade_date>
+		<counterparty>Bank D</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>CapFloor</base_product>
+		<sub_product/>
+		<transaction_type/>
+		<notional_amount>500000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2029-06-04</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:CapFloor</isda_taxonomy>
+		<dsb_product_name>Rates.Option.CapFloor</dsb_product_name>
+		<upi>QZD1V8PXF2RG</upi>
+	</trade>
+	<trade>
+		<trade_id>T005</trade_id>
+		<trade_date>2025-06-05</trade_date>
+		<counterparty>Bank E</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>Inflation Swap</base_product>
+		<sub_product>Fixed Float</sub_product>
+		<transaction_type>Zero Coupon</transaction_type>
+		<notional_amount>1200000</notional_amount>
+		<notional_currency>EUR</notional_currency>
+		<maturity_date>2027-06-05</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:InflationSwap:FixedFloat:ZeroCoupon</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Inflation_Fixed_Float_Zero_Coupon</dsb_product_name>
+		<upi>QZ24044T9VM2</upi>
+	</trade>
+	<trade>
+		<trade_id>T006</trade_id>
+		<trade_date>2025-06-06</trade_date>
+		<counterparty>Bank F</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>Cross Currency</base_product>
+		<sub_product>Fixed Fixed</sub_product>
+		<transaction_type/>
+		<notional_amount>2500000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2026-12-06</maturity_date>
+		<action_type>Modify</action_type>
+		<isda_taxonomy>IR:CrossCurrency:FixedFixed</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Cross_Currency_Fixed_Fixed</dsb_product_name>
+		<upi>QZHM0RRRNRK6</upi>
+	</trade>
+	<trade>
+		<trade_id>T007</trade_id>
+		<trade_date>2025-06-07</trade_date>
+		<counterparty>Bank G</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>Option</base_product>
+		<sub_product>Swaption</sub_product>
+		<transaction_type/>
+		<notional_amount>750000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2027-06-07</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:Option:Swaption</isda_taxonomy>
+		<dsb_product_name>Rates.Option.Swaption</dsb_product_name>
+		<upi>QZ2093849381</upi>
+	</trade>
+	<trade>
+		<trade_id>T008</trade_id>
+		<trade_date>2025-06-08</trade_date>
+		<counterparty>Bank H</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>Forward</base_product>
+		<sub_product>Debt</sub_product>
+		<transaction_type/>
+		<notional_amount>800000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2025-12-08</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:Forward:Debt</isda_taxonomy>
+		<dsb_product_name>Rates.Forward.Debt</dsb_product_name>
+		<upi>QZ92PHD32T52</upi>
+	</trade>
+	<trade>
+		<trade_id>T009</trade_id>
+		<trade_date>2025-06-09</trade_date>
+		<counterparty>Bank I</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>Inflation Swap</base_product>
+		<sub_product>Basis</sub_product>
+		<transaction_type>Year On Year</transaction_type>
+		<notional_amount>1100000</notional_amount>
+		<notional_currency>EUR</notional_currency>
+		<maturity_date>2029-06-09</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:InflationSwap:Basis:YearOnYear</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Inflation_Basis_YoY</dsb_product_name>
+		<upi>QZGL6GW92T52</upi>
+	</trade>
+	<trade>
+		<trade_id>T010</trade_id>
+		<trade_date>2025-06-10</trade_date>
+		<counterparty>Bank J</counterparty>
+		<asset_class>Interest Rate</asset_class>
+		<base_product>IR Swap</base_product>
+		<sub_product>Fixed Float</sub_product>
+		<transaction_type>Zero Coupon</transaction_type>
+		<notional_amount>1300000</notional_amount>
+		<notional_currency>USD</notional_currency>
+		<maturity_date>2026-06-10</maturity_date>
+		<action_type>New</action_type>
+		<isda_taxonomy>IR:Swap:FixedFloat:ZeroCoupon</isda_taxonomy>
+		<dsb_product_name>Rates.Swap.Fixed_Float_Zero_Coupon</dsb_product_name>
+		<upi>QZBFM496WKR1</upi>
+	</trade>
+</trades>

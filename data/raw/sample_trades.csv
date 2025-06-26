@@ -1,0 +1,11 @@
+TradeID,TradeDate,Counterparty,AssetClass,BaseProduct,SubProduct,TransactionType,Notional,Currency,Maturity,Action
+T001,2025-06-01,Bank A,Interest Rate,IR Swap,Fixed Float,OIS,1000000,USD,2027-06-01,New
+T002,2025-06-02,Bank B,Interest Rate,IR Swap,Fixed Float,Plain Vanilla,2000000,EUR,2028-06-02,New
+T003,2025-06-03,Bank C,Interest Rate,IR Swap,Basis,,1500000,USD,2026-06-03,Modify
+T004,2025-06-04,Bank D,Interest Rate,CapFloor,,,500000,USD,2029-06-04,New
+T005,2025-06-05,Bank E,Interest Rate,Inflation Swap,Fixed Float,Zero Coupon,1200000,EUR,2027-06-05,New
+T006,2025-06-06,Bank F,Interest Rate,Cross Currency,Fixed Fixed,,2500000,USD,2026-12-06,Modify
+T007,2025-06-07,Bank G,Interest Rate,Option,Swaption,,750000,USD,2027-06-07,New
+T008,2025-06-08,Bank H,Interest Rate,Forward,Debt,,800000,USD,2025-12-08,New
+T009,2025-06-09,Bank I,Interest Rate,Inflation Swap,Basis,Year On Year,1100000,EUR,2029-06-09,New
+T010,2025-06-10,Bank J,Interest Rate,IR Swap,Fixed Float,Zero Coupon,1300000,USD,2026-06-10,New

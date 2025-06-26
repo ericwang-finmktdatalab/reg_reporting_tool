@@ -1,0 +1,12 @@
+fields:
+  Action: action_type
+  AssetClass: asset_class
+  BaseProduct: base_product
+  Counterparty: counterparty
+  Currency: notional_currency
+  Maturity: maturity_date
+  Notional: notional_amount
+  SubProduct: sub_product
+  TradeDate: trade_date
+  TradeID: trade_id
+  TransactionType: transaction_type
