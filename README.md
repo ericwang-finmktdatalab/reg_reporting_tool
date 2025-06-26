@@ -18,9 +18,10 @@ This project simulates regulatory reporting workflows for OTC derivatives. It tr
 
 
 # To install, clone or download the repository: reg_reporting_tool
-
+```plaintext
 git clone https://github.com/ericwang-finmktdatalab/reg_reporting_tool.git
 cd reg_reporting_tool
+```
 
 
 ```plaintext
