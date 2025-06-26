@@ -23,6 +23,7 @@ git clone https://github.com/ericwang-finmktdatalab/reg_reporting_tool.git
 cd reg_reporting_tool
 
 
+```plaintext
 # Folder Structure
 reg_reporting_tool/
 ├── config/                     # Configuration files (e.g., mappings)
@@ -43,6 +44,7 @@ reg_reporting_tool/
 │   ├── transformer.py
 │   └── utils.py
 └── run_pipeline.py            # Main script to execute transformation
+```
 
 
 # How to Use - Step-by-step Example
@@ -55,16 +57,21 @@ reg_reporting_tool/
 # Sample Input Format
 
 CSV (data/raw/sample_trades.csv)
+```plaintext
 TradeID,TradeDate,Counterparty,AssetClass,BaseProduct,SubProduct,TransactionType,Notional,Currency,Maturity,Action
 T001,2025-06-01,Bank A,Interest Rate,IR Swap,Fixed Float,OIS,1000000,USD,2027-06-01,New
+```
 
 CSV (data/reference/product_reference.csv)
+```plaintext
 asset_class,base_product,sub_product,transaction_type,isda_taxonomy,dsb_product_name,upi
 Interest Rate,IR Swap,Fixed Float,OIS,IR:Swap:FixedFloat:OIS,Rates.Swap.Fixed_Float_OIS,QZWT24156782
+```
 
 
 # Sample Output Format
 JSON (output/ir_report.json)
+```plaintext
 [
     {
         "trade_id":"T001",
@@ -83,8 +90,10 @@ JSON (output/ir_report.json)
         "upi":"QZWT24156782"
     },
 ...
+```
 
 XML (output/ir_report.xml)
+```plaintext
 <trades>
 	<trade>
 		<trade_id>T001</trade_id>
@@ -103,6 +112,7 @@ XML (output/ir_report.xml)
 		<upi>QZWT24156782</upi>
 	</trade>
 ...
+```
 
 
 # Contributions
